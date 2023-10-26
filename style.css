@@ -2,9 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
+:root {
+    --text-color: #eeeeee;
+    --background-color: #2c2a2a;
+    --hover-color: #3a3a3a;
+    --border-color: #444444;
+    --preview-color: #434343;
+}
+
+.border {
+    border: #ff0000a8 solid 1px;
+}
 
 .body {
     background-color: #1c1a1a;
+    font-family: sans-serif;
 }
 
 .sidebar {
@@ -44,4 +56,45 @@
 
 .sidebar button:hover {
     background-color: #3a3a3a;
+}
+
+.content-select {
+    position: fixed;
+    left: 67%;
+    top: 50px;
+    width:400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.select-legend {
+    color: var(--text-color);
+}
+
+.select-button{
+    width: 300px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: var(--border-color) solid 1px;
+    padding: 5px;
+    margin: 12px;
+}
+
+.select-option {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.select-father {
+    margin: 20px 20px 0px 20px;
+}
+
+.preview {
+    position: relative;
+    left: 20%;
+    border: #a5a5a5 solid 1px;
+    width: 400px;
+    height: 400px;
+    background-color: var(--preview-color);
+    margin: 120px;
 }

@@ -9,7 +9,7 @@
         <script src="main.js"></script>
     </head>
     <body class="body">
-       <header class="header">
+        <header class="header">
             <aside class="sidebar">
                 <button class="header-button">
                     <span>
@@ -44,6 +44,55 @@
                     </span>
                 </button>
             </aside>
-       </header> 
+        </header> 
+        <nav class="content-select">
+            <div class="select-father">
+                <label for="select1" class="select-legend">Selecione a cor da camisa</label>
+                <select id="select1" class="select-button" required >
+                    <option class="select-option">Branco</option>
+                    <option class="select-option">Preto</option>
+            </select>
+            </div>   
+            <div class="select-father"> 
+                <label for="select2" class="select-legend">Selecione a estampa</label>
+                <select id="select2" class="select-button" required>
+                    <option class="select-option">#</option>
+                </select>
+            </div>    
+            <div class="select-father">
+                <label for="select3" class="select-legend">Selecione o local da estampa</label>
+                <select id="select3" class="select-button" required>
+                    <option class="select-option">Costas</option>
+                    <option class="select-option">Frente</option>
+                    <option class="select-option">Ombro</option>
+                </select>
+            </div>
+            <div class="select-father">
+                <label for="select4" class="select-legend">Selecione o estilo da camisa</label>
+                <select id="select4" class="select-button" required>
+                    <option class="select-option">Manga curta</option>
+                    <option class="select-option">Manga longa</option>
+                </select>
+            </div>
+            <div class="select-father">
+                <label for="select5" class="select-legend">Selecione o tamanho da camisa</label>
+                <select id="select5" class="select-button" required>
+                    <option class="select-option">P</option>
+                    <option class="select-option">M</option>
+                    <option class="select-option">G</option>
+                    <option class="select-option">GG</option>
+                </select>
+            </div>
+            <div class="select-father">
+                <label for="select6" class="select-legend">Selecione o tecido</label>
+                <select id="select6" class="select-button" required>
+                    <option class="select-option">Malha fria</option>
+                    <option class="select-option">Dry out</option>
+                </select>
+            </div>
+        </nav>
+        <nav class="preview">
+            <span></span>
+        </nav>
     </body>
 </html>
