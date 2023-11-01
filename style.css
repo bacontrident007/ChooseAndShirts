@@ -65,7 +65,7 @@
 .content-select {
     position: fixed;
     left: 67%;
-    top: 50px;
+    top: 15%;
     width:400px;
     display: inline-block;
     text-align: center;
@@ -95,12 +95,13 @@
 
 .preview {
     position: fixed;
-    left: 20%;
+    left: 32%;
+    top: 20%;
     border: #a5a5a5 solid 1px;
     width: 400px;
     height: 400px;
     background-color: var(--preview-color);
-    margin: 120px;
+   /*margin: 120px;*/
 }
 
 .confirm-father {
