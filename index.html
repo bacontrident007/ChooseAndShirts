@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
         <script src="main.js"></script>
     </head>
-    <body class="body">
+    <body class="body" id="body">
         <header class="header">
             <aside class="sidebar">
                 <button class="header-button">
@@ -46,11 +46,11 @@
                 <span class="null"></span>
                 <span class="null"></span>
                 <span class="null"></span>
-                <button class="header-button">
+                <button class="header-button" onclick="noturnMode()">
                     <span>
-                        <i class="material-symbols-outlined">dark_mode</i>
-                        <span>
-                            Modo Noturno
+                        <i class="material-symbols-outlined" id="light-dark">sunny</i>
+                        <span id="noturn-button">
+                            Modo Claro
                         </span>
                     </span>
                 </button>
